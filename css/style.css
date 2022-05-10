@@ -2,5 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;700&display=swap');
 
 *{
+    border: 1px solid red;
+    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+}
+html, body{
+    background-color:  rgb(232, 232, 232);
+}
+
+header{
+    background-color: rgb(77, 65, 192);
+    color: rgb(255, 255, 255);    
+}
+
+nav{
+    display: flex; /* Coloca os elementos um ao lado do outro*/
+    align-items: center; /* Alinhou os itens*/
+    justify-content: space-between;
+}
+
+a,  a:hover{
+    color: unset;
+    text-decoration: none;
+}
+
+
+    
 }
